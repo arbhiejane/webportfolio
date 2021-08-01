@@ -16,7 +16,11 @@
 	<!-- google fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lora&family=Tenor+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Sanchez:ital@0;1&display=swap" rel="stylesheet">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,13 +53,13 @@
 	</script> -->
 
 	<!-- navbar -->
-	<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 		<a class="navbar-brand" href="#">Welcome!</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
+			<ul class="navbar-nav p-2">
 				<li class="nav-item active">
 					<a class="nav-link" href="#about_me">About Me</a>
 				</li>
@@ -78,12 +82,13 @@
 		</div>
 	</nav>
 
-	<div class="container-fluid" >
+	<!-- Main content -->
 
+	<div class="container-fluid" >
 		<!-- About Me -->
-		
+
 		<div class="text-center mb-4" id="about_me">			
-			<div class="row">
+			<div id="profile" class="row">
 				<div class="col-lg-6 col-md-12 col-sm-12">
 					<img src="assets/images/arbhie.jpg"  alt="">
 					<h1>Arbhie Jane Ylagan</h1>
@@ -91,7 +96,11 @@
 				</div>
 				<div class="description col-lg-6 col-md-12 col-sm-12">	
 					<p>
-					Hi I'm Arbhie, currently a student at Zuitt Bootcamp. So far, I am enjoying the bootcamp at Zuitt. Coding is way different to my current job but I've been learning a lot right now. Joining the bootcamp provides me a lot of knowledge and at the same it challenges me. I am looking forward to learn more in the bootcamp, hoping that someday I can be a fulltime Software Engineer / Web Developer.		
+						Hi I'm Arbhie, currently a student at Zuitt Bootcamp. Joining the bootcamp provides me a lot of knowledge and at the same it challenges me too. I am looking forward to learn more, hoping that someday I can be a fulltime Web Developer.		
+					</p>
+
+					<p style="font-family: 'Boogaloo', cursive;">
+						“Choose a job you love, and you will never have to work a day in your life." —Confucius
 					</p>				
 				</div>
 			</div>
@@ -163,39 +172,31 @@
 
 		<div class="text-center" id="portfolio_details">
 			<div class="row">
-				<div class="col">
-	
+				<div class="col">	
 						<a href="https://arbhiejane.github.io/webportfolio/" target="_blank">
 							<p>Capstone 1</p>
 							<p id="capstone_description">Developer's Portfolio</p>
-						</a>
-									
+						</a>									
 				</div>
 
-				<div class="col" style="background-color:orange;">
-				
+				<div class="col" style="background-color:orange;">				
 						<a href="#" style="color:#F2F2EA;">
 							<p>Capstone 2</p>
 							<div id="capstone_description">
 								<p>Description</p>
 								<p>Soon</p>
-							</div>
-							
-						</a>
-
-					
+							</div>							
+						</a>					
 				</div>
-				<div class="col" style="background-color:orange;">
-				
+
+				<div class="col" style="background-color:orange;">				
 						<a href="#" style="color:#F2F2EA;">
 							<p>Capstone 3</p>
 							<div id="capstone_description">
 								<p>Description</p>
 								<p>Soon</p>
-							</div>
-							
-						</a>
-					
+							</div>					
+						</a>					
 				</div>
 			</div>
 		</div>
@@ -203,8 +204,7 @@
 		<!-- Contact -->
 
 		<div id="contact_me">
-			<h3 class="text-center">Contact</h3>
-
+			<h3 class="text-center">Contacts</h3>
 			<div class="row" id="contact_details">
 				<div class="col-lg-4 col-md-12 col-sm-12"></div>
 				<div class="col-lg-4 col-md-12 col-sm-12">
@@ -234,19 +234,22 @@
 		</div>
 
 		<footer>
+			<div id="social_media">
+				<a href="https://www.linkedin.com/in/arbhie-jane-ylagan-642684112">
+					<img src="assets/images/linkedin.png" alt="">
+				</a>
+				<a href="https://github.com/arbhiejane">
+					<img src="assets/images/github.png" alt="">
+				</a>
+				<a href="mailto:ylaganarbhie@gmail.com">
+					<img src="assets/images/gmail.png" alt="">
+				</a>
+			</div>	
+
 			<div>
 				<p>Copyright &#169; 2021 arbhiejaneylagan</p>
 			</div>
-			<a href="https://www.linkedin.com/in/arbhie-jane-ylagan-642684112">
-				<img src="assets/images/linkedin.png" alt="">
-			</a>
-			<a href="https://github.com/arbhiejane">
-				<img src="assets/images/github.png" alt="">
-			</a>
-			<a href="mailto:ylaganarbhie@gmail.com">
-				<img src="assets/images/gmail.png" alt="">
-			</a>
-
+					
 		</footer>
 	</div>
 
