@@ -1,3 +1,116 @@
-nav {
-	background-color: skyblue;
+body {
+	font-family: 'Lora', serif;
+}
+
+.navbar-brand {
+	padding-left: 20px;
+}
+
+div #about_me {
+	margin-top: 50px;
+}
+
+div #about_me img{
+	margin-top: 24px;
+	width: 450px;
+	border: 20px solid floralwhite;
+	borde
+
+}
+
+div .description {
+	text-align: center;
+	padding: 20px;
+}
+
+div .description p{
+	padding-top: 80px;
+	text-align: left;
+	font-size: 20px;
+}
+
+div #education, 
+div #career {
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+
+div #education>h3{
+	padding-top: 100px;
+}
+
+div #education .col, 
+div #career .col {
+	padding: 10px;
+	margin: 10px 40px;
+}
+
+div #education .col p,
+div #career .col p {
+	margin-bottom: 0px;
+}
+
+div #career>h3{
+	padding-top: 2%;
+}
+
+div #portfolio {
+	padding-top: 200px;
+
+}
+
+div #technical_skills, 
+div #contact_me {
+	padding-top: 200px;
+}
+
+
+div #portfolio_details .col {
+	background-color: lavender;
+	padding: 10px;
+	margin: 10px 100px;
+}
+
+div .col a {
+	padding: 50px;
+	font-family: 'Nunito', sans-serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	margin: 8px;	
+}
+
+div .col a #capstone_description {
+	font-size: 15px;
+	text-transform: none;
+	font-family: font-family: 'Nunito', sans-serif;
+
+}
+
+div .col a p {
+	margin: 4px;
+}
+
+#contact>h3 {
+	padding-top: 2%;
+
+}
+
+div #contact_me {
+	padding-bottom: 50px;
+	margin: 30px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+footer img {
+	width: 40px;
+}
+
+footer p {
+	margin-bottom: 0px;
 }
