@@ -52,14 +52,17 @@
 	  AOS.init();
 	</script> -->
 
-	<!-- navbar -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	<!-- navbar -->	
+	
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<a class="navbar-brand" href="#">Welcome!</a>
+
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
-		</button>
+		</button>	
 		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav p-2">
+			<ul class="navbar-nav p-3">
 				<li class="nav-item active">
 					<a class="nav-link" href="#about_me">About Me</a>
 				</li>
@@ -86,7 +89,6 @@
 
 	<div class="container-fluid" >
 		<!-- About Me -->
-
 		<div class="text-center mb-4" id="about_me">			
 			<div id="profile" class="row">
 				<div class="col-lg-6 col-md-12 col-sm-12">
@@ -103,8 +105,7 @@
 						“Choose a job you love, and you will never have to work a day in your life." —Confucius
 					</p>				
 				</div>
-			</div>
-			
+			</div>			
 		</div>
 
 		<!-- Education -->
@@ -148,58 +149,130 @@
 
 		<div id="technical_skills"> 
 			<h3 class="text-center">Technical Skills</h3>
-			<div class="container mt-3 d-flex d-flex flex-wrap justify-content-center">
-				<img width="80" src="assets/images/logo-bootstrap.png" alt="">
-				<img width="80" src="assets/images/logo-css3.png" alt="">
-				<img width="80" src="assets/images/logo-expressjs.png" alt="">
-				<img width="80" src="assets/images/logo-git.png" alt="">
-				<img width="80" src="assets/images/logo-gitlab-ci-cd.png" alt="">
-				<img width="80" src="assets/images/logo-heroku.png" alt="">
-				<img width="80" src="assets/images/logo-html5.png" alt="">
-				<img width="80" src="assets/images/logo-javascript.png" alt="">
-				<img width="80" src="assets/images/logo-mongodb.png" alt="">
-				<img width="80" src="assets/images/logo-nodejs.png" alt="">
-				<img width="80" src="assets/images/logo-postman.png" alt="">
-				<img width="80" src="assets/images/logo-react.png" alt="">
-				<img width="80" src="assets/images/logo-rest.png" alt="">
-				<img width="80" src="assets/images/logo-sublime-text-3.png" alt="">
+			<div class="container mt-3 d-flex d-flex flex-wrap justify-content-around">
+				<div>
+					<img width="80" src="assets/images/logo-bootstrap.png" alt="">
+					<div id="label">
+						<p>Bootstrap</p>
+					</div>					
+				</div>
+				<div>
+					<img width="80" src="assets/images/logo-css3.png" alt="">
+					<div id="label">
+						<p>CSS 3</p>
+					</div>					
+				</div>
+				<div>
+					<img width="80" src="assets/images/logo-expressjs.png" alt="">
+					<div id="label">
+						<p>Express JS</p>
+					</div>					
+				</div>
+				<div>
+					<img width="80" src="assets/images/logo-git.png" alt="">
+					<div id="label">
+						<p>Git</p>
+					</div>					
+				</div>
+				<div>
+					<img width="80" src="assets/images/logo-gitlab-ci-cd.png" alt="">
+					<div id="label">
+						<p>Gitlab</p>
+					</div>					
+				</div>
+				<div>
+					<img width="80" src="assets/images/logo-heroku.png" alt="">
+					<div id="label">
+						<p>Heroku</p>
+					</div>					
+				</div>
+				<div>
+					<img width="80" src="assets/images/logo-html5.png" alt="">
+					<div id="label">
+						<p>HTML 5</p>
+					</div>					
+				</div>
+				<div>
+					<img width="80" src="assets/images/logo-javascript.png" alt="">
+					<div id="label">
+						<p>Java Script</p>
+					</div>				
+				</div>
+				<div>
+					<img width="80" src="assets/images/logo-mongodb.png" alt="">
+					<div id="label">
+						<p>MongoDB</p>
+					</div>					
+				</div>
+				<div>
+					<img width="80" src="assets/images/logo-nodejs.png" alt="">
+					<div id="label">
+						<p>Node JS</p>
+					</div>					
+				</div>
+				<div>
+					<img width="80" src="assets/images/logo-postman.png" alt="">
+					<div id="label">
+						<p>Postman</p>
+					</div>					
+				</div>
+				<div>
+					<img width="80" src="assets/images/logo-react.png" alt="">
+					<div id="label">
+						<p>React</p>
+					</div>					
+				</div>
+				<div>
+					<img width="80" src="assets/images/logo-rest.png" alt="">
+					<div id="label">
+						<p>Rest</p>
+					</div>	
+				</div>
+				<div>
+					<img width="80" src="assets/images/logo-sublime-text-3.png" alt="">
+					<div id="label">
+						<p>Sublime 3</p>
+					</div>
+					
+				</div>								
 			</div>
 		</div>
 
 		<div class="text-center" id="portfolio">
-			<h3>Portfolio</h3>		
+			<h3>Portfolio</h3>	
+			<div class="text-center" id="portfolio_details">
+				<div class="row">
+					<div class="col">	
+							<a href="https://arbhiejane.github.io/webportfolio/" target="_blank">
+								<p>Capstone 1</p>
+								<p id="capstone_description">Developer's Portfolio</p>
+							</a>									
+					</div>
+
+					<div class="col" style="background-color:orange;">				
+							<a href="#" style="color:#F2F2EA;">
+								<p>Capstone 2</p>
+								<div id="capstone_description">
+									<p>Description</p>
+									<p>Soon</p>
+								</div>							
+							</a>					
+					</div>
+
+					<div class="col" style="background-color:orange;">				
+							<a href="#" style="color:#F2F2EA;">
+								<p>Capstone 3</p>
+								<div id="capstone_description">
+									<p>Description</p>
+									<p>Soon</p>
+								</div>					
+							</a>					
+					</div>
+				</div>
+			</div>	
 		</div>
 
-		<div class="text-center" id="portfolio_details">
-			<div class="row">
-				<div class="col">	
-						<a href="https://arbhiejane.github.io/webportfolio/" target="_blank">
-							<p>Capstone 1</p>
-							<p id="capstone_description">Developer's Portfolio</p>
-						</a>									
-				</div>
-
-				<div class="col" style="background-color:orange;">				
-						<a href="#" style="color:#F2F2EA;">
-							<p>Capstone 2</p>
-							<div id="capstone_description">
-								<p>Description</p>
-								<p>Soon</p>
-							</div>							
-						</a>					
-				</div>
-
-				<div class="col" style="background-color:orange;">				
-						<a href="#" style="color:#F2F2EA;">
-							<p>Capstone 3</p>
-							<div id="capstone_description">
-								<p>Description</p>
-								<p>Soon</p>
-							</div>					
-						</a>					
-				</div>
-			</div>
-		</div>
+		
 
 		<!-- Contact -->
 
@@ -226,8 +299,8 @@
 
 						<div class="d-grid p-3">
 							<button class="btn btn-success" type="button">Send</button>
-						</div>		
-					</form>	
+						</div>							
+					</form>		
 				</div>
 				<div class="col-lg-4 col-md-12 col-sm-12"></div>	
 			</div>	
