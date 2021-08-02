@@ -87,10 +87,11 @@ div #technical_skills #label {
 }
 
 
-div #portfolio_details .col {
-	background-color: lavender;
+div #portfolio_details .col p {
+	color: black;
 	padding: 10px;
 	margin: 10px 100px;
+
 }
 
 div .col a {
