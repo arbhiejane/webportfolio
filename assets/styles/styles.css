@@ -1,22 +1,25 @@
 body {
-	font-family: 'Sanchez', serif;
+	font-family: 'Roboto', sans-serif;
+	font-size: larger;
 	background: url("https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1274&q=80");
 	background-color: #C9C2CD;
-	height: 500px;
+	height: 850px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 }
 
+/*===========nav=========*/ 
 nav {
 	text-transform: uppercase;
 }
 
 .navbar-brand {
-	padding-left: 20px;
+	margin-left: 20px;
 }
 
+/*===========main content=========*/ 
 div .container-fluid{
 	padding: 0px;
 }
@@ -25,18 +28,16 @@ div #about_me {
 	margin-top: 50px;
 }
 
-div #profile {
-	padding-top: 10px;
-}
-
 div #about_me img{
-	margin: 24px;
-	width: 400px;
-	border: 25px solid floralwhite;
-
+	/*margin: 24px;*/
+	/*width: 400px;*/
+	max-width: 400px;
+	width: 100%;
+	height: auto;
+	border: 20px solid floralwhite;
 }
 
-div .description {
+/*div .description {
 	text-align: center;
 	padding: 20px;
 }
@@ -46,7 +47,8 @@ div .description p{
 	text-align: left;
 	font-size: 20px;
 }
-
+*/
+/*======education=============*/
 div #education, 
 div #career {
 	padding-top: 100px;
@@ -68,15 +70,12 @@ div #career .col p {
 	margin-bottom: 0px;
 }
 
+/*======career=============*/
 div #career>h3{
 	padding-top: 2%;
 }
 
-div #portfolio {
-	padding-top: 200px;
-
-}
-
+/*======technical skill=============*/
 div #technical_skills, 
 div #contact_me {
 	padding-top: 200px;
@@ -87,37 +86,56 @@ div #technical_skills #label {
 }
 
 
-div #portfolio_details .col p {
-	color: black;
-	padding: 10px;
-	margin: 10px 100px;
+div #portfolio {
+	padding-top: 200px;
+}
 
+/*======portfolio============*/
+div #portfolio_details {
+	padding: 10px;
+}
+
+div #portfolio_details .col p {
+
+	font-family: 'Nunito', sans-serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;		
+}
+
+div #portfolio_details img {
+	
+	border: solid;
+	color: #F2F2EA;
+
+	max-width: 500px;
+	width: 100%;
+	height: auto;
 }
 
 div .col a {
-	padding: 50px;
+
 	font-family: 'Nunito', sans-serif;
 	text-transform: uppercase;
 	font-size: 30px;
 	text-decoration: none;
 	color: black;
-	margin: 8px;	
 }
 
 div .col a #capstone_description {
 	font-size: 15px;
 	text-transform: none;
 	font-family: font-family: 'Nunito', sans-serif;
-
 }
 
 div .col a p {
-	margin: 4px;
+/*	margin: 4px;*/
 }
 
+/*==========contact==========*/
 #contact>h3 {
 	padding-top: 2%;
-
 }
 
 div #contact_me {
@@ -125,14 +143,22 @@ div #contact_me {
 	margin: 30px;
 }
 
-footer {
+/*==========footer==========*/
+.footer {
 	text-align: center;
 	margin-bottom: 10px;
 	color: #4C1272;
+	background-color: lightyellow;
 }
 
-footer img {
-	width: 30px;
-	padding-bottom: 10px;
+.footer img {
+	width: 50px;
+	/*padding-bottom: 10px;*/
+}
+
+.footer p {
+	font-size: smaller;
+	font-family: monospace;
+	margin-bottom: 5px;
 }
 

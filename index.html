@@ -16,15 +16,7 @@
 	<!-- google fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
-
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Sanchez:ital@0;1&display=swap" rel="stylesheet">
-
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 	<title>"Arbhie Jane Ylagan" Web Portfolio</title>
 </head>
@@ -33,7 +25,7 @@
 	<!-- navbar -->	
 	
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Welcome!</a>
+		<a class="navbar-brand" href="#">ARBHIE</a>
 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -65,15 +57,14 @@
 	<!-- Main content -->
 
 	<div class="container-fluid" >
-		<!-- About Me -->
 		<div class="text-center mb-4" id="about_me">			
-			<div id="profile" class="row">
-				<div class="col-lg-6 col-md-12 col-sm-12">
+			<div id="profile">
+				<div class="img-fluid">
 					<img src="assets/images/arbhie.jpg"  alt="">
 					<h1>Arbhie Jane Ylagan</h1>
 					<h4>Full-Stack Web Developer</h4>
 				</div>
-				<div class="description col-lg-6 col-md-12 col-sm-12">	
+				<div>	
 					<p>
 						Hi I'm Arbhie, currently a student at Zuitt Bootcamp. Joining the bootcamp provides me a lot of knowledge and at the same it challenges me too. I am looking forward to learn more, hoping that someday I can be a fulltime Web Developer.		
 					</p>
@@ -85,7 +76,6 @@
 			</div>			
 		</div>
 
-		<!-- Education -->
 
 		<div class="text-center" id="education">
 			<h3>Education</h3>
@@ -215,21 +205,26 @@
 			</div>
 		</div>
 
-		<div class="text-center" id="portfolio">
+		<div class="text-center container-fluid" id="portfolio">
 			<h3>Portfolio</h3>	
 			<div class="text-center" id="portfolio_details">
 				<div class="row">
-					<div class="col md-6 col-sm-12 order-1 md-1">	
-							<a href="https://arbhiejane.github.io/webportfolio/" target="_blank">
+					<div class="col lg-6 md-6 col-sm-12 order-1 md-1">	
+							
 								<p>Capstone 1</p>
-								<p id="capstone_description">Developer's Portfolio</p>
+								<div id="capstone_description" class="text-center">
+									<a href="https://arbhiejane.github.io/webportfolio/" target="_blank">
+									<img src="./assets/images/capstone1.png" alt="image not found" class="img-fluid">			
+									<p>Developer's Portfolio</p>
+								</div>
 							</a>									
 					</div>
 
-					<div class="col md-6 col-sm-12 order-2 md-1">				
-							<a href="#">
+					<div class="col lg-6 md-6 col-sm-12 order-2 md-1">				
+							
 								<p>Capstone 2</p>
 								<div id="capstone_description" class="text-center">
+									<a href="#">
 									<img src="./assets/images/capstone2.jpg" alt="image not found" class="img-fluid">
 									<p>Web API (ECommerce)</p>
 									<p>Work in Progress</p>
@@ -237,10 +232,11 @@
 							</a>					
 					</div>
 
-					<div class="col md-12 col-sm-12 order-2 md-1">				
-							<a href="#" style="color:#F2F2EA;">
+					<div class="col lg-6 md-12 col-sm-12 order-3 md-1">				
+							
 								<p>Capstone 3</p>
 								<div id="capstone_description" class="text-center">
+									<a href="#">
 									<img src="https://d6vdma9166ldh.cloudfront.net/media/images/1455b5c8-4887-43a8-8214-de77543414c9.jpg" alt="image not found" class="img-fluid">
 									<p>React Framework (Ecommerce)</p>
 									<p>Work in Progress</p>
@@ -251,9 +247,6 @@
 			</div>	
 		</div>
 
-		
-
-		<!-- Contact -->
 
 		<div id="contact_me">
 			<h3 class="text-center">Contacts</h3>
@@ -285,26 +278,25 @@
 			</div>	
 		</div>
 
-		<footer>
-			<div id="social_media">
-				<a href="https://www.linkedin.com/in/arbhie-jane-ylagan-642684112">
-					<img src="assets/images/linkedin.png" alt="">
-				</a>
-				<a href="https://github.com/arbhiejane">
-					<img src="assets/images/github.png" alt="">
-				</a>
-				<a href="mailto:ylaganarbhie@gmail.com">
-					<img src="assets/images/gmail.png" alt="">
-				</a>
-			</div>	
-
-			<div>
-				<p>Copyright &#169; 2021 arbhiejaneylagan</p>
-			</div>
-					
-		</footer>
 	</div>
 
+	<!-- Footer -->
+
+	<div class = "footer d-flex justify-content-center">
+		<div id="social_media">
+			<a href= "https://www.linkedin.com/in/arbhie-jane-ylagan-642684112">
+				<img src="assets/images/linkedin.png" alt="">
+			</a>
+			<a href= "https://github.com/arbhiejane">
+				<img src="assets/images/github.png" alt="">
+			</a>
+			<a href= "mailto:ylaganarbhie@gmail.com">
+				<img src="assets/images/gmail.png" alt="">
+			</a>
+
+			<p>Copyright &#169; 2021 arbhiejaneylagan</p>
+		</div>	
+	</div>
 
 
 	<!-- jquery -->
